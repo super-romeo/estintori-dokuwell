@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://estintori.dokufile.com/sitemap.xml
