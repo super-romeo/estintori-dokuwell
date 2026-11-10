@@ -1,18 +1,20 @@
-/* The theme setting: the :root block exactly as the kit's own start.mjs prints it
-   (start.mjs css --page software --palette teal-on-paper --type manrope --radius soft). */
+/* The theme setting: the :root block the kit's start.mjs printed, its values set to the smokes' house
+   palette (СМ-04) and one font, Inter (brief 4: every variant shares colours and font, only the layout differs).
+   The inverse tokens are light too, and the lit ground (data-ground) is neutral. */
 :root {
-  --p-bg: #f7f9f8; --p-surface: #ebf0ee; --p-ink: #06525c; --p-muted: #2f737d;
-  --p-accent: #06525c; --p-accent-ink: #f7f9f8; --p-action: #06525c; --p-action-ink: #f7f9f8;
-  --p-inv-bg: #06525c; --p-inv-surface: #205d66; --p-inv-ink: #f7f9f8; --p-inv-muted: #c1d0d2;
-  --p-inv-accent: #f7f9f8; --p-inv-accent-ink: #06525c; --p-inv-action: #f7f9f8; --p-inv-action-ink: #06525c;
-  --font-display: "Manrope", system-ui, sans-serif;
-  --font-text: "Manrope", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --p-bg: #fcfcfc; --p-surface: #f7f8f9; --p-ink: #05080b; --p-muted: #5c646f;
+  --p-accent: #006acf; --p-accent-ink: #ffffff; --p-action: #006acf; --p-action-ink: #ffffff;
+  --p-inv-bg: #f7f8f9; --p-inv-surface: #ffffff; --p-inv-ink: #05080b; --p-inv-muted: #5c646f;
+  --p-inv-accent: #006acf; --p-inv-accent-ink: #ffffff; --p-inv-action: #006acf; --p-inv-action-ink: #ffffff;
+  --font-display: "Inter", system-ui, sans-serif;
+  --font-text: "Inter", system-ui, sans-serif;
+  --font-mono: "Inter", system-ui, sans-serif;
   --display-weight: 500;
   --display-tracking: -0.035em;
   --display-tracking-xl: -0.045em;
   --ly-scale: 0.97;
 }
+:root[data-ground] { --ground-bg: #f7f8f9; --ground-surface: #ffffff; --ground-ink: #05080b; --ground-muted: #5c646f; --ground-accent: #dfe1e5; }
 
 /* Page CSS (cards.md: one --p-h per card group): the four panels shorter once the cards stack. */
 @media (max-width: 1023px) { #cosa .panel { --p-h: 160px; } }
@@ -26,4 +28,4 @@
 @media (max-width: 1023px) { .nav > .nav__bar { gap: var(--s-3); } }
 @media (max-width: 639px) { .nav > .nav__bar { gap: var(--s-2); } }
 footer a { color: inherit; }                     /* base: footer a in the page ground colour */
-.field select:focus { outline: 2px solid var(--action); outline-offset: 2px; }   /* base: a blue ring on select:focus */
+.field select:focus { outline: 2px solid #0086dd; outline-offset: 2px; }   /* base: a blue ring on select:focus */
