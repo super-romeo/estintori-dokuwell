@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Per le ditte di manutenzione antincendio: controllo di ogni estintore per matricola sul telefono e rapportino PDF firmato dal cliente.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Rapportino Estintori</a></div>
-  <nav class="top"><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Rapportino Estintori</a>
+  <nav><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Ogni estintore controllato per matricola — e il cliente firma il rapportino sul telefono del tecnico</h1>
-    <p class="sub">Per le ditte che fanno manutenzione antincendio per conto terzi: il tecnico registra il controllo di ogni estintore per matricola, l'esito e le anomalie, il cliente firma il rapportino sul telefono e il PDF parte subito, con le prossime scadenze già calcolate.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Mi serve</a>
-    <p class="cta-note">Servizio in preparazione · Su questa pagina non si accettano pagamenti</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Per le ditte che fanno manutenzione antincendio</p>
+      <h1 class="rise" style="--i:1" data-len="long">Ogni estintore controllato per matricola&nbsp;<span class="soft">— e il cliente firma il rapportino sul telefono del tecnico</span></h1>
+      <p class="rise" style="--i:2">Per le ditte che fanno manutenzione antincendio per conto terzi: il tecnico registra il controllo di ogni estintore per matricola, l'esito e le anomalie, il cliente firma il rapportino sul telefono e il PDF parte subito, con le prossime scadenze già calcolate.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Mi serve</a>
+      <p class="meta rise" style="--i:4">Servizio in preparazione · Su questa pagina non si accettano pagamenti</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="36" font-weight="600" fill="#0a1524">Rapportino Estintori</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="282" font-size="30" fill="#0a1524">Storico per matricola</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="30" fill="#0a1524">Controllo sul posto</text><rect x="130" y="450" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="482" font-size="30" fill="#0a1524">Rapportino firmato</text><rect x="130" y="550" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="582" font-size="30" fill="#0a1524">Scadenze</text><rect x="780" y="250" width="240" height="420" rx="32" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="820" y="310" width="160" height="28" rx="8" fill="#dde2ea" /><rect x="820" y="360" width="160" height="28" rx="8" fill="#dfe8f7" /><rect x="820" y="410" width="120" height="28" rx="8" fill="#dde2ea" /><circle cx="900" cy="610" r="20" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Per</dt><dd>Ditte di manutenzione antincendio</dd></div>
+      <div><dt>Matricola</dt><dd>Controllo di ogni estintore</dd></div>
+      <div><dt>Rapportino</dt><dd>Cliente firma il rapportino</dd></div>
+      <div><dt>Servizio</dt><dd>Servizio è in preparazione</dd></div>
+    </dl>
+  </section>
 
   <section id="cosa" data-view="features_view">
-    <h2>Cosa ottieni</h2>
-    <div class="grid">
-      <div class="card"><b>Storico per matricola</b><span>Ogni estintore con la sua matricola, l'ubicazione e tutti i controlli fatti.</span><br><a class="btn" href="price.html" data-ev="feature_matricola">Mi serve</a></div>
-      <div class="card"><b>Controllo sul posto</b><span>Esito, anomalie e foto registrati dal tecnico sul telefono, estintore per estintore.</span><br><a class="btn" href="price.html" data-ev="feature_controllo">Mi serve</a></div>
-      <div class="card"><b>Rapportino firmato</b><span>Il cliente firma sul telefono del tecnico e riceve il rapportino in PDF.</span><br><a class="btn" href="price.html" data-ev="feature_rapportino">Mi serve</a></div>
-      <div class="card"><b>Scadenze</b><span>Controllo periodico, revisione e collaudo programmati per ogni estintore.</span><br><a class="btn" href="price.html" data-ev="feature_scadenze">Mi serve</a></div>
+    <div class="stack"><h2>Cosa ottieni</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" font-weight="600" fill="#0a1524">Storico per matricola</text><rect x="130" y="200" width="500" height="52" rx="10" fill="#dfe8f7" /><rect x="130" y="272" width="440" height="52" rx="10" fill="#eef2f7" /><rect x="130" y="344" width="480" height="52" rx="10" fill="#eef2f7" /><rect x="130" y="416" width="360" height="40" rx="10" fill="#dde2ea" /><polyline points="156,220 170,236 194,204" fill="none" stroke="#12397a" stroke-width="4" /><polyline points="156,292 170,308 194,276" fill="none" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Storico per matricola</h3><p>Ogni estintore con la sua matricola, l'ubicazione e tutti i controlli fatti.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_matricola">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" font-weight="600" fill="#0a1524">Controllo sul posto</text><rect x="280" y="190" width="240" height="320" rx="32" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="320" y="240" width="160" height="22" rx="8" fill="#dde2ea" /><rect x="320" y="280" width="160" height="22" rx="8" fill="#dfe8f7" /><rect x="320" y="320" width="110" height="22" rx="8" fill="#dde2ea" /><circle cx="400" cy="460" r="18" fill="#12397a" /></svg></div>
+        <h3>Controllo sul posto</h3><p>Esito, anomalie e foto registrati dal tecnico sul telefono, estintore per estintore.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_controllo">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" font-weight="600" fill="#0a1524">Rapportino firmato</text><rect x="170" y="190" width="460" height="290" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="230" width="280" height="16" rx="8" fill="#dde2ea" /><rect x="210" y="266" width="340" height="16" rx="8" fill="#dde2ea" /><rect x="210" y="302" width="220" height="16" rx="8" fill="#b9c3d2" /><circle cx="520" cy="410" r="34" fill="#dfe8f7" /><polyline points="502,410 516,426 546,392" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Rapportino firmato</h3><p>Il cliente firma sul telefono del tecnico e riceve il rapportino in PDF.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rapportino">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" font-weight="600" fill="#0a1524">Scadenze</text><rect x="150" y="200" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="200" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="370" y="200" width="90" height="70" rx="8" fill="#12397a" /><rect x="480" y="200" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="290" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="290" width="90" height="70" rx="8" fill="#dfe8f7" /><rect x="370" y="290" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="480" y="290" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="380" width="90" height="70" rx="8" fill="#b9c3d2" /><rect x="260" y="380" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="370" y="380" width="90" height="70" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="480" y="380" width="90" height="70" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Scadenze</h3><p>Controllo periodico, revisione e collaudo programmati per ogni estintore.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_scadenze">Mi serve</a>
+      </article>
     </div>
   </section>
 
-  <section id="esempio" data-view="example_view">
-    <h2>Esempio (dati di fantasia)</h2>
-    <p class="fine">Ditta di manutenzione con 3 tecnici e 400 clienti. In un capannone ci sono 22 estintori: il tecnico scansiona la matricola di ognuno, registra il controllo e segnala un manometro fuori scala. Il responsabile firma sul telefono, il rapportino in PDF arriva per email e la revisione dell'estintore è già in agenda.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+  <section id="esempio" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Esempio</h2>
+      <p>Ditta di manutenzione con 3 tecnici e 400 clienti. In un capannone ci sono 22 estintori: il tecnico scansiona la matricola di ognuno, registra il controllo e segnala un manometro fuori scala. Il responsabile firma sul telefono, il rapportino in PDF arriva per email e la revisione dell'estintore è già in agenda.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">22 estintori</text><text x="600" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">un manometro</text><text x="960" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">sul telefono</text><rect x="140" y="310" width="920" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="190" y="390" font-size="36" font-weight="600" fill="#0a1524">rapportino in PDF</text><rect x="190" y="450" width="240" height="36" rx="10" fill="#dde2ea" /><rect x="190" y="510" width="400" height="36" rx="10" fill="#dfe8f7" /><rect x="190" y="570" width="300" height="36" rx="10" fill="#b9c3d2" /><rect x="640" y="470" width="80" height="160" rx="12" fill="#12397a" /><rect x="750" y="530" width="80" height="100" rx="12" fill="#dde2ea" /><rect x="860" y="500" width="80" height="130" rx="12" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Come funziona</h2>
-    <p>Una ditta di manutenzione antincendio controlla ogni anno migliaia di estintori presso i propri clienti: uffici, negozi, capannoni, condomini, scuole. Per ognuno servono il controllo periodico, la revisione e il collaudo alle scadenze previste, e per ogni intervento un rapportino che il cliente firma e conserva.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Come funziona</h2></div>
+    <div class="stack">
+      <p>Una ditta di manutenzione antincendio controlla ogni anno migliaia di estintori presso i propri clienti: uffici, negozi, capannoni, condomini, scuole. Per ognuno servono il controllo periodico, la revisione e il collaudo alle scadenze previste, e per ogni intervento un rapportino che il cliente firma e conserva.</p>
     <p>Spesso questo lavoro si fa ancora con cartellini, moduli di carta e un foglio di calcolo in ufficio. Il tecnico scrive a mano le matricole, l'ufficio le ricopia la sera, e quando un cliente chiede lo storico di un estintore o arriva un controllo dei vigili del fuoco, bisogna ricostruirlo da fogli sparsi.</p>
     <p>Il servizio parte dall'estintore. Ogni estintore del cliente è registrato con la sua matricola, il tipo, la capacità e l'ubicazione. Sul posto, il tecnico scansiona o digita la matricola e trova subito la scheda con tutti i controlli precedenti.</p>
     <p>Per ogni estintore il tecnico registra l'esito del controllo, le anomalie trovate — pressione, sigillo, cartellino, accessibilità — e una foto se serve. Un estintore da sostituire o da mandare in revisione viene segnalato subito, e il cliente vede cosa c'è da fare prima di firmare.</p>
@@ -114,31 +148,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Per una ditta con più tecnici, ognuno lavora dal proprio telefono e l'ufficio vede in tempo reale gli interventi chiusi, i rapportini firmati e gli estintori da sostituire. Lo storico per matricola resta lo stesso anche quando cambia il tecnico.</p>
     <p>Iniziare richiede una serata: i dati della ditta, i tecnici e i clienti con i loro estintori, importati da un foglio di calcolo. Il servizio funziona nel browser e sul telefono, senza installazioni.</p>
     <p>Il servizio è pensato per le piccole e medie ditte di manutenzione antincendio. È in preparazione: prima verifichiamo se le ditte ne hanno bisogno, e solo dopo lo costruiamo. La ditta resta responsabile della manutenzione eseguita e del rispetto delle norme applicabili.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Domande frequenti</h2>
-    <h3>Per chi è il servizio?</h3>
-    <p>Per le piccole e medie ditte di manutenzione antincendio che lavorano per conto terzi.</p>
-    <h3>Il cliente può firmare il rapportino?</h3>
-    <p>Sì, sul telefono del tecnico; il rapportino in PDF arriva al cliente per email.</p>
-    <h3>Si vede lo storico di ogni estintore?</h3>
-    <p>Sì, per matricola, con tutti i controlli, le revisioni e i collaudi.</p>
-    <h3>Bisogna installare qualcosa?</h3>
-    <p>No, il servizio funziona nel browser e sul telefono.</p>
-    <h3>Posso già usarlo?</h3>
-    <p>Non ancora. Il servizio è in preparazione e stiamo verificando se le ditte ne hanno bisogno.</p>
+    <div class="stack"><h2>Domande frequenti</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Per chi è il servizio?</h3><p>Per le piccole e medie ditte di manutenzione antincendio che lavorano per conto terzi.</p></div>
+      <div class="split flip"><h3>Il cliente può firmare il rapportino?</h3><p>Sì, sul telefono del tecnico; il rapportino in PDF arriva al cliente per email.</p></div>
+      <div class="split flip"><h3>Si vede lo storico di ogni estintore?</h3><p>Sì, per matricola, con tutti i controlli, le revisioni e i collaudi.</p></div>
+      <div class="split flip"><h3>Bisogna installare qualcosa?</h3><p>No, il servizio funziona nel browser e sul telefono.</p></div>
+      <div class="split flip"><h3>Posso già usarlo?</h3><p>Non ancora. Il servizio è in preparazione e stiamo verificando se le ditte ne hanno bisogno.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Aggiungi la tua ditta</h2>
-    <p><label>Numero di tecnici<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— scegli —</option><option>1</option><option>2–3</option><option>4–10</option><option>Più di 10</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Inizia</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Aggiungi la tua ditta</h2>
+    </div>
+    <div class="tile stack">
+      <label>Numero di tecnici<select data-ev-focus="form_start"><option value="">— scegli —</option><option>1</option><option>2–3</option><option>4–10</option><option>Più di 10</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Inizia</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Rapportino Estintori</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Registro dei controlli e rapportini per la tua ditta. La ditta resta responsabile della manutenzione e del rispetto delle norme.</p>
+  <p>Registro dei controlli e rapportini per la tua ditta. La ditta resta responsabile della manutenzione e del rispetto delle norme.</p>
 </div></footer>
 
 </body>
